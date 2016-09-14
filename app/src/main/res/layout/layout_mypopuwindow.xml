@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#1f34ed"
+    android:orientation="vertical" >
+
+    <Button
+        android:onClick="doClick"
+        android:id="@+id/popu_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="生成二维码"
+        android:textColor="#fff"
+        android:gravity="center_vertical|center"
+    />
+    <View android:layout_width="match_parent"
+          android:layout_height="0.5dp"
+          android:background="#fff"
+            />
+
+    <Button
+        android:onClick="doClick"
+        android:id="@+id/popu_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="扫一扫"
+        android:textColor="#fff"
+        android:gravity="center_vertical|center"
+    />
+
+</LinearLayout>
